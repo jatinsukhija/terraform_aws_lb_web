@@ -26,8 +26,8 @@ variable "my-alb-target-group" {
 } 
 variable "custom_vpc_id" {}
 
-variable "subnet1_id" {}
-variable "subnet2_id" {}
+variable "public_subnet1_id" {}
+variable "public_subnet2_id" {}
 
 variable "webserver1_publicIP" {}
-variable "webserver2_publicIP" {}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+variable "webserver2_publicIP" {}
